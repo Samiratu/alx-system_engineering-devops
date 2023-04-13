@@ -1,4 +1,2 @@
 #!/bin/bash
-working_dir=$(pwd)
-absolute_pth="$working_dir"
-echo "$absolute_pth"
+echo "$(pwd)"
