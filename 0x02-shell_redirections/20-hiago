@@ -1,2 +1,2 @@
-#!/bi/bash
-tr -d 'Cc'
+#!/bin/bash
+echo "$1" | tr -d 'cC'
