@@ -1,0 +1,3 @@
+#!/bin/bash
+sed 'y/Ac/Ze/' "$1"
+
