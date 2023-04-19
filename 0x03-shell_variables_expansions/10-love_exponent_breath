@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(bc -l <<< "scale=2; e(l($BREATH)*$LOVE)")$
+echo $(($BREATH ** $LOVE))
